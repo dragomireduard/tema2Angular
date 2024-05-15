@@ -1,0 +1,85 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nz-table {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px 16px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  th:hover {
+    background-color: #e0e0e0;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    margin: 0 4px;
+  }
+  
+  button[nz-button][nzType="primary"] {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  button[nz-button][nzType="primary"]:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  button[nz-button][nzType="default"] {
+    background-color: #fff;
+    border-color: #d9d9d9;
+  }
+  
+  button[nz-button][nzType="default"]:hover {
+    background-color: #e6f7ff;
+    border-color: #1890ff;
+  }
+  
+  button[nz-button][nzType="danger"] {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+  }
+  
+  button[nz-button][nzType="danger"]:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+  

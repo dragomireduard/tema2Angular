@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="header">
+      <h2>Friends List</h2>
+      <button routerLink="/add-friend" type="button" nz-button nzType="primary">
+        <i nz-icon nzType="plus"></i> Add Friend
+      </button>
+    </div>
+  
+    <nz-table #basicTable [nzData]="friends" [nzBordered]="true">
+      <thead>
+        <tr>
+          <th (click)="toggleSort('firstName')">Nume</th>
+          <th (click)="toggleSort('lastName')">Prenume</th>
+          <th (click)="toggleSort('phone')">Telefon</th>
+          <th (click)="toggleSort('city')">Oraș</th>
+          <th (click)="toggleSort('birthday')">Data Nașterii</th>
+          <th>Acțiuni</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let friend of friends">
+          <td>{{ friend.firstName }}</td>
+          <td>{{ friend.lastName }}</td>
+          <td>{{ friend.phone }}</td>
+          <td>{{ friend.city }}</td>
+          <td>{{ friend.birthday | date:'mediumDate' }}</td>
+          <td>
+            <button nz-button nzType="default" [routerLink]="['/edit-friend', friend.id]">
+              <i nz-icon nzType="edit"></i> Edit
+            </button>
+            <button nz-button nzType="danger" (click)="deleteFriend(friend)">
+              <i nz-icon nzType="delete"></i> Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+  

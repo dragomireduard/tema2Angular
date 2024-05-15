@@ -1,0 +1,60 @@
+{
+  "friends": [
+    {
+      "firstName": "Ionut",
+      "lastName": "Dragomir",
+      "phone": "0758318013",
+      "city": "Rucar",
+      "birthday": "2003-01-01",
+      "id": "88b4"
+    },
+    {
+      "id": "1073",
+      "firstName": "Andreas",
+      "lastName": "Faur",
+      "phone": "4332435",
+      "city": "Brasov",
+      "birthday": "2020-01-10"
+    },
+    {
+      "id": "fe4c",
+      "firstName": "Mihai",
+      "lastName": "Aron",
+      "phone": "123434334",
+      "city": "Arges",
+      "birthday": "1997-02-04"
+    },
+    {
+      "firstName": "Anca",
+      "lastName": "Marin",
+      "phone": "0749756615",
+      "city": "Bucuresti",
+      "birthday": "2006-12-14",
+      "id": "ac27"
+    },
+    {
+      "id": "eefd",
+      "firstName": "Ionut-Eduard",
+      "lastName": "Dragomir",
+      "phone": "0758318013",
+      "city": "Rucar",
+      "birthday": "2024-01-02"
+    },
+    {
+      "id": "7f13",
+      "firstName": "sdadsa",
+      "lastName": "fdghjk",
+      "phone": "3456654212",
+      "city": "asfgjhgfd",
+      "birthday": "2017-02-15"
+    },
+    {
+      "id": "56bf",
+      "firstName": "IonutEduard",
+      "lastName": "Dragomir",
+      "phone": "0758318013",
+      "city": "Rucar",
+      "birthday": "2024-05-01"
+    }
+  ]
+}
