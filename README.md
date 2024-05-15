@@ -1,4 +1,5 @@
 # Tema2
+Before npm start , run command 'json-server --watch dbFriends.json --port 4000' for start JSON-server
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
